@@ -41,4 +41,5 @@ body {
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
    background:none;
+   border-bottom:4px solid #FFF;
    }
