@@ -19,7 +19,10 @@ body {
     );
     border:0;
 }
-
+.navbar-brand {
+   padding:15px 0;
+   margin:0 15px;
+}
 .jumbotron {
    background:#FFF;
    color:#000;
