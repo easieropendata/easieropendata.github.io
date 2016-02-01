@@ -6,6 +6,8 @@
     window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);</script>
   <title>EasierOpenData.org</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script src="https://easieropendata.org/js/webmaster_toolkit_for_socrata.js"></script>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -144,7 +146,7 @@
     <hr>
 
     <footer>
-      <p>&copy; Company 2014</p>
+      <p>&copy; Company 2014 There are <span class="socrata_count" url="https://data.seattle.gov/resource/a4j2-uu8v.json?$select=count(*)&$where=completed_date IS NULL"></span></p>
     </footer>
 
   </div>
