@@ -23,6 +23,7 @@ body {
 .jumbotron {
    background:#89CFF0;
    color:#666;
+   margin-bottom:0;
 }
 
 .jumbotron h1, .jumbotron .h1 {
