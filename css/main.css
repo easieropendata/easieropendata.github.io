@@ -43,11 +43,11 @@ body {
 }
 
 .jumbotron btn, .jumbotron btn-primary, .jumbotron btn-lg {
-   background:#04519b;
+   background-color:#04519b;
 }
 
 .jumbotron p {
-   font-size:1.1em;
+   font-size:1.2em;
 }
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
