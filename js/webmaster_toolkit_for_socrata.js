@@ -1,12 +1,18 @@
+if (typeof console == "undefined") {
+    this.console = {log: function() {}};
+}
+
 function updateItemWithSimpleCount(item, data) {
   item.text(data[0][Object.keys(data[0])[0]]);
 }
 
 function handleSimpleCount() {
   $.each($('.socrata_count'), function(item) {
+    console.log($(this).attr('data-url'))
     var socrataUrl = $(this).attr('data-url');
+    var item = $(this)
     $.get(socrataUrl, function(data) {
-      updateItemWithSimpleCount($(this), data);
+      updateItemWithSimpleCount(item, data);
     });
   });
 }
