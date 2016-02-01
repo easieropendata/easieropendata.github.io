@@ -11,10 +11,19 @@
     border:0;
 }
 
+.jumbotron {
+   background:#317eac;
+   color:#FFF;
+}
+
 .jumbotron h1, .jumbotron .h1 {
    font-size: 2em;
 }
 
 .jumbotron p {
    font-size:1.25em;
+}
+
+.navbar-inverse .navbar-brand {
+   color:#FFF;
 }
