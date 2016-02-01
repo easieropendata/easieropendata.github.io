@@ -32,6 +32,8 @@ body {
    font-style:italic;
 }
 
+.jumbotron btn, .jumbotron btn-primary, .jumbotron btn-lg
+
 .jumbotron p {
    font-size:1.1em;
 }
