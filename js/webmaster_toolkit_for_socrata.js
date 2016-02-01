@@ -11,11 +11,12 @@ function handleSimpleCount() {
   });
 }
 
+if (!window.jQuery) {
 // Anonymous "self-invoking" function
 (function() {
     // Load the script
     var script = document.createElement("SCRIPT");
-    script.src = 'https://code.jquery.com/jquery-2.2.0.min.js';
+    script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js';
     script.type = 'text/javascript';
     document.getElementsByTagName("head")[0].appendChild(script);
 
@@ -34,3 +35,4 @@ function handleSimpleCount() {
         handleSimpleCount();
     });
 })();
+}
