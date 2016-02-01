@@ -2,6 +2,13 @@
    font-size: 0.8em / 1;
 }
 
+navbar {
+   background-image:
+    linear-gradient(
+      #00F, #003 
+    );
+}
+
 h1 {
    font-size: 1.25em;
 }
