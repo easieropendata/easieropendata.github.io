@@ -1,3 +1,9 @@
+/*
+Add <script src="https://easieropendata.org/js/webmaster_toolkit_for_socrata.js"></script> to your webpage
+To add a count(*) add something similar to
+<p>There are <span class="socrata_count" data-url="https://data.seattle.gov/resource/a4j2-uu8v.json?$select=count(*)&$where=completed_date IS NULL"></span> open Seattle Police records requests.</p>
+
+*/
 if (typeof console == "undefined") {
     this.console = {log: function() {}};
 }
