@@ -17,6 +17,11 @@ function handleSimpleCount() {
   });
 }
 
+function main() {
+    
+    handleSimpleCount();
+}
+
 if (!window.jQuery) {
 // Anonymous "self-invoking" function
 (function() {
@@ -38,7 +43,9 @@ if (!window.jQuery) {
 
     // Start polling...
     checkReady(function($) {
-        handleSimpleCount();
+        main();
     });
 })();
+} else {
+    main();
 }
