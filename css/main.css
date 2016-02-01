@@ -8,6 +8,7 @@ body {
     linear-gradient(
       #04519b, #044687 60%, #033769
     );
+    color:#FFF;
 }
 
 .navbar-inverse {
@@ -20,7 +21,7 @@ body {
 }
 
 .jumbotron {
-   background:#317eac;
+   background:#89CFF0;
    color:#FFF;
 }
 
