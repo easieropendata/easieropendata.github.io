@@ -49,6 +49,10 @@ body {
    font-size:1.2em;
 }
 
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
    color:#FFF;
    margin:0 15px;
