@@ -42,7 +42,9 @@ body {
    font-style:italic;
 }
 
-.jumbotron btn, .jumbotron btn-primary, .jumbotron btn-lg
+.jumbotron btn, .jumbotron btn-primary, .jumbotron btn-lg {
+   background:#04519b;
+}
 
 .jumbotron p {
    font-size:1.1em;
