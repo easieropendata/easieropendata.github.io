@@ -15,7 +15,7 @@ function handleSimpleCount() {
 (function() {
     // Load the script
     var script = document.createElement("SCRIPT");
-    script.src = 'http://code.jquery.com/jquery-2.2.0.min.js';
+    script.src = 'https://code.jquery.com/jquery-2.2.0.min.js';
     script.type = 'text/javascript';
     document.getElementsByTagName("head")[0].appendChild(script);
 
