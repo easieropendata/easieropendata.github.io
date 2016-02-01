@@ -10,7 +10,9 @@ body {
     );
     color:#FFF;
 }
-
+.navbar .container {
+   padding-left:30px;
+}
 .navbar-inverse {
    background-color:#04519b;
    background-image:
